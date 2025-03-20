@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: /zwicklab.github.io/about
+permalink: /zwicklab.github.io/about.md
 ---
 # About page
 
