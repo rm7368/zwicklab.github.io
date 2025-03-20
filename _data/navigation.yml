@@ -1,9 +1,6 @@
 - name: Home
-  link: /
-  baseurl: /zwicklab.github.io
+  link: /zwicklab.github.io
 - name: About
-  link: /about.html
-  baseurl: /zwicklab.github.io
+  link: /zwicklab.github.io/about.html
 - name: Blog
-  link: /blog.html
-  baseurl: /zwicklab.github.io
+  link: /zwicklab.github.io/blog.html
