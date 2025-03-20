@@ -8,16 +8,15 @@
   <body>
     <nav>
     
-      <a href="/">Home</a>
+      <a href="/zwicklab.github.io">Home</a>
     
-      <a href="/about.html">About</a>
+      <a href="/zwicklab.github.io/about.html">About</a>
     
-      <a href="/blog.html">Blog</a>
+      <a href="/zwicklab.github.io/blog.html">Blog</a>
     
 </nav>
-    <h1 id="about-page">About page</h1>
+    # About page
 
-<p>This page tells you a little bit about me.</p>
-
+This page tells you a little bit about me.
   </body>
 </html>
