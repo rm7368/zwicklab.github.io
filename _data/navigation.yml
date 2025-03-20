@@ -1,6 +1,6 @@
 - name: Home
-  link: /
+  link: /zwicklab.github.io
 - name: About
-  link: /about.html
+  link: /zwicklab.github.io/about.html
 - name: Blog
-  link: /blog.html
+  link: /zwicklab.github.io/blog.html
