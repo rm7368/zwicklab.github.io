@@ -75,8 +75,21 @@
 }
 
 .header-right a.active {
-  background-color: #0a1638;
+  background-color: #14000d;
   color: #05e68b;
+}
+
+.header-right a{
+  list-style:none;
+  display:inline-block;
+  margin-right:10px;
+  color: #bf2ccd;
+  text-align: center;
+  padding: none;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 150px;
+  border-radius: 4px;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
