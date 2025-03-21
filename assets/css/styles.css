@@ -46,20 +46,20 @@
   padding: none;
   text-decoration: none;
   font-size: 50px;
-  line-height: 150px;
+  line-height: 100px;
   border-radius: 4px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  font-size: 150px;
+  font-size: 100px;
   font-weight: bold;
 }
 
 /* Change the background color on mouse-over */
 .header a:hover {
   color: #bf2ccd;
-  line-height: 150px;
+  line-height: 100px;
 }
 
 /* Style the active/current link*/
@@ -82,7 +82,7 @@
   padding: none;
   text-decoration: none;
   font-size: 25px;
-  line-height: 150px;
+  line-height: 100px;
   border-radius: 4px;
 }
 
