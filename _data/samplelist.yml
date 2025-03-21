@@ -4,6 +4,6 @@ docs:
 - title: Zwick Lab
   url: index.html
 - about: About
-  url: about.md
+  url: about.html
 - contactus: Contact Us
-  url: blog.html
+  url: contactus.html
