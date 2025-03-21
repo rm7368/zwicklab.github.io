@@ -49,7 +49,7 @@
 }
 
 .centered {
-  font-family: EB_Garamond;
+  font-family: EB_Garamond !important;
   font-size:xx-large;
   font-weight: 300;
   color: whitesmoke;
@@ -75,7 +75,7 @@
 .header-right a {
   float: right;
   display:block;
-  font-family: EB_Garamond;
+  font-family: EB_Garamond !important;
   margin-right:10px;
   color: #bf2ccd;
   text-align: center;
