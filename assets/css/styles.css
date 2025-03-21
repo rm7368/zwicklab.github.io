@@ -30,11 +30,12 @@
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #1b7b7c;
+  background-color: #14000d;
 }
 
 .header img {
   float: left;
+  margin-left: 25px;
   width: 100px;
   height: 100px;
   background: #14000d;
@@ -60,14 +61,14 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
-  color: rgb(198, 140, 140);
+  background-color: #0a1638;
+  color: #bf2ccd;
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: rgb(65, 58, 57);
-  color: white;
+  background-color: #0a1638;
+  color: #05e68b;
 }
 
 /* Float the link section to the right */
