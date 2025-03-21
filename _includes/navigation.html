@@ -1,6 +1,6 @@
 <nav>
   <div class="header-right">
-    {% for item in site.data.navigation %}
+    {% for item in site.data.samplelist %}
       <a href="{{ item.link }}"{% if page.url == item.link %}class="active"{% endif %}>{{ item.name }}</a>
     {% endfor %}
   </div>
