@@ -19,14 +19,14 @@
     max-width: 100%;
     max-height: 100vh;
     height: auto;
-    opacity: 0.2;
+    opacity: 0.5;
   }
 
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  background-color: #0a1705;
+  padding: 0px 0px;
 }
 
 /* Style the header links */
@@ -55,7 +55,7 @@
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: rgb(123, 26, 5);
   color: white;
 }
 
