@@ -32,9 +32,9 @@
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: rgb(82, 28, 28);
   text-align: center;
-  padding: 12px;
+  padding: none;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -55,7 +55,7 @@
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: rgb(123, 26, 5);
+  background-color: rgb(65, 58, 57);
   color: white;
 }
 
