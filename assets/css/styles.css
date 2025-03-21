@@ -32,9 +32,10 @@
 .header img {
   float: left;
   margin-left: 25px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background: #14000d;
+  overflow: hidden;
 }
 
 /* Style the header links */
@@ -57,9 +58,8 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #25002d;
   color: #bf2ccd;
-  line-height: 50px;
+  line-height: 150px;
 }
 
 /* Style the active/current link*/
