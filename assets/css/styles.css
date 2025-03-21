@@ -22,6 +22,7 @@
   height: auto;
   object-fit: contain;
   margin-top: 10px;
+  z-index: 0;
   }
 
 .imgbox {
@@ -49,6 +50,8 @@
   font-family: EB_Garamond;
   font-size:large;
   font-weight: 200;
+  color: whitesmoke;
+  z-index: 20;
   display: flex;
   justify-content: center;
   align-items: center;
