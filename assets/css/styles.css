@@ -10,9 +10,9 @@
 
 .headerimg {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 100vh;
   width: auto;
-  height: 0.31*max-content;
+  height: auto;
   object-fit: contain;
   }
 
@@ -76,11 +76,6 @@
   float: right;
 }
 
-.header-right a.active {
-  background-color: #14000d;
-  color: #05e68b;
-}
-
 .header-right a{
   list-style:none;
   display:inline-block;
@@ -93,6 +88,12 @@
   line-height: 150px;
   border-radius: 4px;
 }
+
+.header-right a.active {
+  background-color: #14000d;
+  color: #05e68b;
+}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
