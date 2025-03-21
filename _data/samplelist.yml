@@ -5,5 +5,5 @@ docs:
   url: index.html
 - about: About
   url: about.md
-- contactus:
+- contactus: Contact Us
   url: blog.html
