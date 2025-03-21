@@ -34,26 +34,26 @@
 .header img {
   float: left;
   margin-left: 25px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   background: #14000d;
 }
 
 /* Style the header links */
 .header a {
   float: left;
-  color: rgb(82, 28, 28);
+  color: #bf2ccd;
   text-align: center;
   padding: none;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 25px;
+  line-height: 150px;
   border-radius: 4px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  font-size: 25px;
+  font-size: 150px;
   font-weight: bold;
 }
 
