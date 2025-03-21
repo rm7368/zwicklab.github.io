@@ -1,0 +1,9 @@
+docs_list_title: Zwick Pages
+docs:
+
+- title: Zwick Lab
+  url: index.html
+- about: About
+  url: about.md
+- contactus:
+  url: blog.html
