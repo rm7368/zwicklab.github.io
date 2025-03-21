@@ -50,9 +50,10 @@
 
 .centered {
   font-family: EB_Garamond;
-  font-size:large;
-  font-weight: 200;
+  font-size:xx-large;
+  font-weight: 300;
   color: whitesmoke;
+  line-height: 20px;
   position:absolute;
   justify-content: center;
   top:50%;
