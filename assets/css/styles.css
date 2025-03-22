@@ -16,23 +16,38 @@
   }
 
 .headerimg {
-  max-width: 100%;
-  max-height: 100vh;
-  box-shadow:0 0 50px 50px #14000d;
+  max-width: 94%;
+  max-height: 94vh;
   width: auto;
   height: auto;
   object-fit: contain;
-  margin-top: 5px;
-  z-index: 1;
+  margin-top: 20px;
   }
 
+.imgbox::before{
+  content:'';
+  
+}
+
 .imgbox {
-    height: 100%;
-    position: relative;
-    text-align: center;
-    color:whitesmoke;
+  width:120rem;
+  height:37rem;
+  background-image:url(../images/GENERAL_bluesky_swiss_roll_magenta_cropped.jpg);
+  background-size:contain;
+  z-index: 10;
+  position: absolute;
+  background: radial-gradient(circle at center, rgba(191,44,205,0.08651382916447825) 0%, rgba(20,0,13,1) 90%);
+  background-size: contain;
+  margin-top: 3rem;
   }
   
+.imgbox img{
+  position: center;
+  max-width: 120rem;
+  width:120rem;
+  height:37rem;
+  z-index:1;
+}
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -62,6 +77,7 @@
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
+  z-index:50;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -95,6 +111,16 @@
   color: #05e68b;
 }
 
+.circle img {
+  display: block;
+  content:'/zwicklab.github.io/zwicklabimages/GENERAL_bluesky_swiss roll magenta cropped.jpg';
+  position: absolute;
+  max-width: 120rem;
+  height: auto;
+  object-fit: contain;
+  margin-top: 5rem;
+  top: 0; left: 0;
+}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
